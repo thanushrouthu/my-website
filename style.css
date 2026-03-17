@@ -3,19 +3,48 @@
     font-family: Arial;
 }
 
+/* Navbar */
 nav {
     background: black;
     color: white;
     padding: 15px;
 }
 
-section {
+/* Hero section */
+.hero {
     text-align: center;
-    margin-top: 100px;
+    padding: 100px;
+    background: #f4f4f4;
 }
 
+/* About */
+.about {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Skills */
+.skills {
+    background: #eee;
+    padding: 50px;
+    text-align: center;
+}
+
+.skills ul {
+    list-style: none;
+}
+
+/* Contact */
+.contact {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Button */
 button {
     padding: 10px 20px;
-    background: cyan;
+    background: black;
+    color: white;
     border: none;
+    cursor: pointer;
 }
