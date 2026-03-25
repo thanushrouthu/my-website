@@ -1,115 +1,59 @@
-   * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: 'Segoe UI', sans-serif;
-    scroll-behavior: smooth;
-    background: #f9f9f9;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
 }
 
-/* Navbar */
-nav {
-    position: sticky;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #000;
-    color: white;
-    padding: 15px 40px;
-    z-index: 1000;
+/* Header */
+header {
+  background: #e11d48;
+  color: white;
+  padding: 20px;
 }
 
-nav ul {
-    display: flex;
-    gap: 25px;
-    list-style: none;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-nav a:hover {
-    color: cyan;
-}
-
-/* Hero */
+/* Hero Section */
 .hero {
-    text-align: center;
-    padding: 140px 20px;
-    background: linear-gradient(135deg, #00c6ff, #0072ff);
-    color: white;
-}
-
-.hero h1 {
-    font-size: 40px;
-}
-
-.hero p {
-    margin: 10px 0;
-    font-size: 18px;
+  background: #fce7f3;
+  padding: 40px;
 }
 
 /* Button */
 button {
-    padding: 12px 25px;
-    border: none;
-    background: black;
-    color: white;
-    cursor: pointer;
-    margin-top: 15px;
-    border-radius: 5px;
-    transition: 0.3s;
+  padding: 10px 20px;
+  background: #e11d48;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-button:hover {
-    background: cyan;
-    color: black;
+/* Services */
+.services {
+  padding: 30px;
 }
 
-/* Sections */
-section {
-    padding: 70px 20px;
-    text-align: center;
-}
-
-/* Skills */
-.skills ul {
-    list-style: none;
-}
-
-.skills li {
-    margin: 10px;
-    font-weight: bold;
-}
-
-/* Projects */
-.projects {
-    background: #eee;
-}
-
-.project-card {
-    background: white;
-    padding: 20px;
-    margin: 20px auto;
-    width: 260px;
-    border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    transition: transform 0.3s;
-}
-
-.project-card:hover {
-    transform: translateY(-10px);
+.card {
+  background: #f1f5f9;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 8px;
 }
 
 /* Contact */
 .contact {
-    background: #000;
-    color: white;
+  padding: 20px;
 }
+
+/* Footer */
+footer {
+  background: #111;
+  color: white;
+  padding: 10px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  .hero {
+    padding: 20px;
+  }
+} 

@@ -1,3 +1,3 @@
- function showMessage() {
-    alert("Contact me at thanushrouthu@gmail.com");
+function showMessage() {
+  alert("Thank you! We will contact you soon.");
 }
