@@ -1,3 +1,3 @@
-function showMessage() {
+ function showMessage() {
   alert("Thank you! We will contact you soon.");
 }
